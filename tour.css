@@ -1,0 +1,315 @@
+root{
+    --red:rgba(220, 0, 0, 0.726);
+    --maroon:rgb(133, 0, 0);
+}
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+}
+header{
+    background-image: url(/photo/mountains-g5ea4b5920_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul{
+    list-style-type: none;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px; 
+}
+
+.nav-bar a{
+    font-size: 3vmin;
+    text-decoration: none;
+    color: rgb(223, 30, 30);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.61) ;
+    align-items: center;
+
+}
+.nav-bar .menu{
+    display: flex;
+    margin-right: 10px;
+    /* flex-wrap: wrap; */
+}
+.nav-bar .menu a {
+     margin-top: 8px;
+    margin-right: 19px;
+    font-weight:bold;
+    font-size: 3.5vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-bar .menu a:hover{
+    color:darkorange
+}
+.landing-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.landing-content h2{
+    color: red;
+    text-align: center;
+}
+.landing-content h2:nth-child(1){
+    font-size: 4.5vmin;
+    font-family: serif;
+    font-weight: bolder;
+    text-shadow: 1px 2px 2px black;
+}
+
+.landing-content h2:nth-child(n){
+    font-size: 3vmax;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-shadow: 1px 2px 2px black;
+}
+
+.main-content .line{
+    width:15vw;
+    height: 0;
+    border: 1px solid maroon;
+    position: relative;
+    bottom: 40px;
+}
+.landing-content  .line {
+    width:15vw;
+    height: 0;
+    border: 1px solid maroon;
+
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+ 
+}
+
+.btn a h3{
+    background-color: maroon;
+    border: 1px solid maroon;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    border-radius: 12%;
+}
+.main-content{
+    display:flex;
+    flex-direction: column;
+}
+
+.main-content div{
+    margin-top: 30px;
+}
+
+.main-content .title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.main-content .title h2{
+    font-size: 5vmin;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(58, 58, 70);   
+}
+
+.main-content .row{
+    display: flex;
+    min-width: 320px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-top: 10px;
+    /* flex-wrap: wrap-reverse; */
+}
+
+
+.main-content .row .pic1,.pic2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+
+}
+
+.main-content .row .pic1 h2{
+    font-size: 5vmin;
+    color: rgba(0, 0, 0, 0.836);
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+}
+
+.main-content .row .pic2 h2{
+    font-size: 5vmin;
+    color: rgba(0, 0, 0, 0.836);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-content .row .pic1,.pic2 p{
+    color: rgba(32, 29, 29, 0.904);
+    font-size: 2vmin;
+    padding:5px;
+    text-align: justify;
+    text-align: center;
+}
+
+
+.main-content .btn {
+    text-decoration: none;
+    color: white;
+}
+
+.main-content .pic2 .btn  h3{
+    background-color: maroon;
+    border: 1px solid maroon;
+    width: 100%;
+    padding: 5px;
+    font-size: 3vmin;
+    text-align: center;
+    border-radius: 12%;
+}
+
+.main-content .pic1 .btn  h3{
+    background-color: maroon;
+    border: 1px solid maroon;
+    width: 100%;
+    padding: 5px;
+    font-size: 3vmin;
+    text-align: center;
+    border-radius: 12%;
+}
+
+.main-content div img{
+    width:70%
+}
+.tours{
+    width:100%;
+    height:84vh;
+    background-image: url(/photo/penguins-g004d0a5d2_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top:10px;
+}
+
+.tours .btn{
+    text-decoration: none;
+    color: white;
+}
+
+.Tourist{
+   display: flex;
+   flex-direction: column;
+   padding:100px;
+   padding-left: 80px;   
+}
+
+.Tourist h2{
+    font-size: 6vmin;
+    color:rgba(17, 16, 16, 0.836);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.Tourist P{
+    width:30vw;
+    color:rgba(17, 5, 5, 0.986);
+    font-size: 3vmin;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    position: relative;
+    bottom: 25px;
+
+}
+
+.tours .btn h3{
+    background-color: maroon;
+    border: 1px solid maroon;
+    width: 20%;
+    padding: 5px;
+    font-size: 3vmin;
+    text-align: center;
+    border-radius: 12%;
+}
+
+.explore{
+    margin-top:40px;
+    padding:20px;
+}
+
+.explore-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content{
+    flex:2;
+}
+
+.content h2{
+    font-size: 3.3vmax;
+    color: rgb(38, 38, 100);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding:10px
+}
+
+.content h5{
+    font-size:2.4vmin;
+    color: rgba(104, 31, 31, 0.973);
+    text-align: justify;
+    padding: 10px;
+    padding-right:50px;
+    line-height: 1.2rem;    
+}
+
+.content-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.explore-content .content-img img{
+    width:20vw;
+    height:25vh;
+    margin: 3px;
+
+}
+
+.foot{
+    background-color: rgba(0, 0, 0, 0.733);
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    padding:5px;
+    display:flex;
+    flex-direction: column;
+}
+
+.foot .p{
+    color:rgb(197, 185, 185);
+    font-size: 1.6rem;
+    letter-spacing: .5px;
+    min-width: 400px;
+   
+}
+
+
+
